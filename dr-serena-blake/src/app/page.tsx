@@ -2,6 +2,7 @@ import Head from 'next/head';
 import TopBar from "@/components/TopBar";
 import Hero from "@/components/Hero";
 import About from "@/components/About"; // <-- Import About section
+import Services from '@/components/Services';
 
 export default function Home() {
   return (
@@ -14,8 +15,8 @@ export default function Home() {
       </Head>
       <TopBar />
       <Hero />
-      <About /> {/* <-- Add About section here */}
-      {/* ...other sections */}
+      <About />
+      <Services />
     </>
   );
 }
