@@ -3,6 +3,7 @@ import TopBar from "@/components/TopBar";
 import Hero from "@/components/Hero";
 import About from "@/components/About"; // <-- Import About section
 import Services from '@/components/Services';
+import Frequent from '@/components/Frequent';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
+      <Frequent />
     </>
   );
 }
