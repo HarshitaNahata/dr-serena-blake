@@ -15,11 +15,11 @@ export default function About() {
                             letterSpacing: "-0.5px",
                         }}
                     >
-                        About Dr. Jennifer Hahm
+                        About Dr. Selena Blake
                     </h2>
 
                     {/* Image — visible in center on mobile */}
-                    <div className="md:hidden mb-6 flex justify-center">
+                    <div className="md:hidden mb-6 flex justify-center" >
                         <img
                             src="/serena-blake-headshot.jpg"
                             alt="Dr. Jennifer Hahm"
@@ -48,13 +48,13 @@ export default function About() {
                         }}
                     >
                         <p>
-                            Finding time and opportunities to care for ourselves can be incredibly challenging in today’s busy and demanding world. I believe therapy offers a dedicated space for self-care, providing the support and tools needed to improve this essential practice. Therapy can help individuals identify and clarify their goals, values, and the various elements that contribute to their well-being, recognizing that these aspects vary from person to person.
+                            Dr. Serena Blake is a licensed clinical psychologist (PsyD) based in Los Angeles, California, with over eight years of professional experience and more than 500 client sessions. She is deeply committed to walking alongside individuals as they navigate life’s emotional challenges, offering both warmth and clinical expertise in every session. Her work is grounded in empathy, authenticity, and the belief that healing begins in a space where clients feel truly seen and heard.
                         </p>
                         <p>
-                            I am dedicated to supporting this journey by offering active listening, psychological knowledge, empathy, compassion, and insights into behavioral patterns and tendencies. I hold a master’s degree in Clinical Psychology from the Michigan School of Psychology (2012) and a Ph.D. in Counseling Psychology from Western Michigan University (2018). My experience spans therapy and psychological assessment in psychiatric inpatient units, academic medical centers, universities, and outpatient practice settings.
+                            With a strong foundation in evidence-based practices, Dr. Blake integrates cognitive-behavioral therapy (CBT), mindfulness techniques, and trauma-informed care to address a range of issues—from anxiety and stress to relationship struggles and past emotional wounds. Her approach is personalized and collaborative, ensuring that each session is tailored to the client’s goals, pace, and comfort. She values building trust and helping clients develop effective coping strategies while fostering deeper self-awareness and resilience.
                         </p>
                         <p>
-                            My therapeutic approach is primarily psychodynamic and humanistic, enriched by influences from positive psychology, existentialism, family systems theory, acceptance and commitment concepts, and mindfulness practices.
+                            Whether meeting in-person at her serene Maplewood Drive office or virtually via secure Zoom sessions, Dr. Blake creates a safe, supportive environment where growth is not only possible—but encouraged. She works with adults from all walks of life and is passionate about helping clients reclaim their inner strength, improve emotional well-being, and live more connected, fulfilling lives.
                         </p>
                     </div>
                 </div>

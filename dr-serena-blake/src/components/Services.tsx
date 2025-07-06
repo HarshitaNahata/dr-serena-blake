@@ -2,19 +2,19 @@
 
 const services = [
     {
-        title: "Therapy for Healthcare Providers and Students",
+        title: "Anxiety & Stress Management",
         image: "/service-healthcare.jpg",
-        description: `The care you provide for others may be driving you to seek therapy, whether due to burnout, compassion fatigue, imposter syndrome, people-pleasing tendencies, or perfectionism. Whether you’re in pre-professional school, undergoing training, or reflecting on a long career in healthcare, we can address the unique stressors of your professional environment along with any challenges you may be facing in other areas of your life.`,
+        description: `Dr. Blake provides personalized support to help individuals manage overwhelming anxiety, chronic worry, and daily stress. Using evidence-based methods such as cognitive-behavioral therapy (CBT) and mindfulness, she works collaboratively with clients to understand root causes, identify thought patterns, and develop healthier coping strategies. Whether you're facing work-related pressure, panic attacks, or generalized anxiety, Dr. Blake helps you build emotional resilience and regain a sense of calm and control in your life.`,
     },
     {
-        title: "Therapy for Trauma and Grief",
-        image: "/service-trauma.jpg",
-        description: `Life’s challenges, whether a difficult childhood, a traumatic event or series of events, or the loss of someone or something deeply meaningful, can lead to profound experiences of trauma and grief. Therapy offers a supportive space to process these experiences, care for yourself amidst painful thoughts and emotions, and work toward a sense of grounding and meaning.`,
-    },
-    {
-        title: "Therapy for Second Generation Individuals in Immigrant Families",
+        title: "Relationship Counseling",
         image: "/service-immigrant.jpg",
-        description: `Second-generation individuals in immigrant families, born in the U.S. to at least one parent born abroad, often navigate the complexities of multiple cultures and diverse expectations. This experience can bring challenges such as feeling like a foreigner in your own country and navigating strained family relationships. Therapy offers a supportive space to explore and process this unique aspect of your identity.`,
+        description: `Whether you're struggling with communication, trust issues, or navigating life transitions as a couple, Dr. Blake offers a safe, nonjudgmental space to explore your relationship dynamics. She helps individuals and couples strengthen emotional bonds, improve communication, and work through conflict in a constructive, respectful way. Her approach focuses on empathy, connection, and practical tools to foster intimacy and long-term relational health.`,
+    },
+    {
+        title: "Trauma Recovery",
+        image: "/service-trauma.jpg",
+        description: `Healing from trauma takes time, courage, and the right kind of support. Dr. Blake specializes in trauma-informed care, helping clients process painful experiences such as abuse, loss, or past emotional wounds. With compassion and clinical skill, she helps individuals feel safe, empowered, and more in control of their lives. Her trauma recovery work includes grounding techniques, emotional regulation skills, and narrative processing to support long-term healing and post-traumatic growth.`,
     },
 ];
 

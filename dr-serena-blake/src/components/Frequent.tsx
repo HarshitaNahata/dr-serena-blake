@@ -33,6 +33,11 @@ const faqs = [
         answer:
             "Anxiety & Stress Management, Relationship Counseling, and Trauma Recovery. See the Services section for details.",
     },
+    {
+        question: "What is your cancellation policy?",
+        answer:
+            "A minimum of 24 hours’ notice is required to cancel or reschedule an appointment. Late cancellations or missed sessions may incur a fee.",
+    },
 ];
 
 export default function Frequent() {
