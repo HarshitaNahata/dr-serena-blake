@@ -1,3 +1,4 @@
+import Link from "next/link";
 // src/components/Footer.tsx
 export default function Footer() {
     return (
@@ -15,19 +16,19 @@ export default function Footer() {
             </h2>
 
             <p>
-                <a
+                <Link
                     href="mailto:serena@blakepsychology.com"
                     className="underline hover:text-[#b7c9c6]"
                 >
                     serena@blakepsychology.com
-                </a>
+                </Link>
             </p>
 
             <p>
                 Phone:{" "}
-                <a href="tel:3235550192" className="underline">
+                <Link href="tel:3235550192" className="underline">
                     (323) 555-0192
-                </a>{" "}
+                </Link>{" "}
                 Fax: (323) 555-0193
             </p>
 
@@ -41,24 +42,24 @@ export default function Footer() {
             </div>
 
             <div className="mt-4 space-x-4">
-                <a href="/" className="underline">
+                <Link href="/" className="underline">
                     Home
-                </a>
-                <a href="/privacy-policy" className="underline">
+                </Link>
+                <Link href="/privacy-policy" className="underline">
                     Privacy Policy
-                </a>
-                <a href="/good-faith-estimate" className="underline">
+                </Link>
+                <Link href="/good-faith-estimate" className="underline">
                     Good Faith Estimate
-                </a>
+                </Link>
             </div>
 
             <div className="mt-6">
-                <a
+                <Link
                     href="/client-portal"
                     className="underline font-medium hover:text-[#b7c9c6]"
                 >
                     Client Portal
-                </a>
+                </Link>
             </div>
 
             <p className="mt-10 text-sm text-[#5a5a3f]">

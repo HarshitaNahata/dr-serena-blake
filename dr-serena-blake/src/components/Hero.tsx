@@ -1,45 +1,47 @@
 'use client';
 
+import Link from "next/link";
+
 export default function Hero() {
-    return (
-        // <section className="relative h-[85vh] max-w-7xl mx-auto my-12 overflow-hidden shadow-md">
-        <section className="relative h-[85vh] w-full max-w-7xl mx-auto md:mt-0 overflow-hidden px-4 sm:px-6 md:px-0">
+  return (
+    // <section className="relative h-[85vh] max-w-7xl mx-auto my-12 overflow-hidden shadow-md">
+    <section className="relative h-[85vh] w-full max-w-7xl mx-auto md:mt-0 overflow-hidden px-4 sm:px-6 md:px-0">
 
-            {/* Background Video */}
-            <video
-                className="absolute inset-0 w-full h-full object-cover -z-10"
-                autoPlay
-                loop
-                muted
-                playsInline
-                preload="auto"
-                poster="/hero-fallback.jpg"
-            >
-                <source src="/hero-bg.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
+      {/* Background Video */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover -z-10"
+        autoPlay
+        loop
+        muted
+        playsInline
+        preload="auto"
+        poster="/hero-fallback.jpg"
+      >
+        <source src="/hero-bg.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
-            {/* Subtle Overlay */}
-            <div className="absolute inset-0 bg-black/25 -z-10" />
+      {/* Subtle Overlay */}
+      <div className="absolute inset-0 bg-black/25 -z-10" />
 
-            {/* Content */}
-            {/* <div className="relative z-10 text-center text-white px-4 flex flex-col justify-center items-center h-full font-serif"> */}
-            <div className="relative z-10 text-center text-white px-2 sm:px-4 flex flex-col justify-center items-center h-full font-serif">
-                <h1 className="text-3xl md:text-5xl font-semibold leading-snug mb-4 drop-shadow-lg">
-                    Psychological Care for <br />
-                    <span className="block mt-2">Change, Insight, and Well-Being</span>
-                </h1>
-                <p className="text-md md:text-lg mb-8 font-light max-w-2xl drop-shadow">
-                    Offering individual psychotherapy for adults via telehealth in Michigan and most U.S. states through PSYPACT participation
-                </p>
-                <a
-                    href="#contact"
-                    className="text-white text-sm font-semibold tracking-wide uppercase w-[280px] h-[60px] md:w-[380px] md:h-[72px] flex items-center justify-center shadow-md hover:bg-[#b0cbc8] transition-all font-sans lens-shape"
-                >
-                    Schedule a Consultation
-                </a>
+      {/* Content */}
+      {/* <div className="relative z-10 text-center text-white px-4 flex flex-col justify-center items-center h-full font-serif"> */}
+      <div className="relative z-10 text-center text-white px-2 sm:px-4 flex flex-col justify-center items-center h-full font-serif">
+        <h1 className="text-3xl md:text-5xl font-semibold leading-snug mb-4 drop-shadow-lg">
+          Psychological Care for <br />
+          <span className="block mt-2">Change, Insight, and Well-Being</span>
+        </h1>
+        <p className="text-md md:text-lg mb-8 font-light max-w-2xl drop-shadow">
+          Offering individual psychotherapy for adults via telehealth in Michigan and most U.S. states through PSYPACT participation
+        </p>
+        <Link
+          href="#contact"
+          className="text-white text-sm font-semibold tracking-wide uppercase w-[280px] h-[60px] md:w-[380px] md:h-[72px] flex items-center justify-center shadow-md hover:bg-[#b0cbc8] transition-all font-sans lens-shape"
+        >
+          Schedule a Consultation
+        </Link>
 
-                <style jsx>{`
+        <style jsx>{`
   .lens-shape {
     background-color: #bfd2cc;
     clip-path: path(
@@ -57,7 +59,7 @@ export default function Hero() {
 `}</style>
 
 
-            </div>
-        </section>
-    );
+      </div>
+    </section>
+  );
 }

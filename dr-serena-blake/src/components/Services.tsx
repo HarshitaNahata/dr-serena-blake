@@ -1,4 +1,5 @@
 // src/components/Services.tsx
+import Image from "next/image";
 
 const services = [
     {
@@ -45,13 +46,14 @@ export default function Services() {
                                 }`}
                         >
                             <div className="flex flex-col items-center justify-start h-full">
-                                <img
+                                <Image
                                     src={service.image}
                                     alt={service.title}
                                     className="w-64 md:w-[22.5rem] aspect-square object-cover rounded-full border-2 border-[#e5e5e5] shadow mb-8"
                                     style={{ background: "#fff" }}
+                                    width={360}
+                                    height={360}
                                 />
-
 
                                 <h3
                                     className="text-xl md:text-2xl font-bold mb-4"

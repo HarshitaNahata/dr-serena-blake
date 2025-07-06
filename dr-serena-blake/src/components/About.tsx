@@ -1,12 +1,12 @@
+import Image from "next/image";
+
 export default function About() {
     return (
         <section className="pt-32 pb-24 mt-12 bg-[#fdfbf7]">
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:gap-x-[69px] gap-y-16 px-6 md:px-8 lg:px-12">
 
-
                 {/* Left Column: Text */}
                 <div className="md:w-2/3 flex flex-col">
-                    {/* Heading */}
                     <h2
                         className="text-3xl md:text-4xl font-bold mb-6"
                         style={{
@@ -18,12 +18,14 @@ export default function About() {
                         About Dr. Selena Blake
                     </h2>
 
-                    {/* Image — visible in center on mobile */}
-                    <div className="md:hidden mb-6 flex justify-center" >
-                        <img
+                    {/* Mobile Image */}
+                    <div className="md:hidden mb-6 flex justify-center">
+                        <Image
                             src="/serena-blake-headshot.jpg"
-                            alt="Dr. Jennifer Hahm"
-                            className="w-[300px] h-[360px] object-cover rounded-md shadow-md"
+                            alt="Dr. Serena Blake"
+                            width={300}
+                            height={360}
+                            className="object-cover rounded-md shadow-md"
                             style={{
                                 background: "#f7f5f0",
                                 border: "1.5px solid #e5e5e5",
@@ -31,7 +33,7 @@ export default function About() {
                         />
                     </div>
 
-                    {/* Paragraph Text with Animation */}
+                    {/* Description */}
                     <div
                         className="space-y-6 text-base md:text-lg fade-in"
                         style={{
@@ -40,11 +42,6 @@ export default function About() {
                             lineHeight: "1.8",
                             fontWeight: "300",
                             whiteSpace: "pre-wrap",
-                            transitionTimingFunction: "ease",
-                            transitionDuration: "0.9s",
-                            transitionDelay: "0.144s",
-                            opacity: 1,
-                            transform: "translateY(0)",
                         }}
                     >
                         <p>
@@ -59,12 +56,14 @@ export default function About() {
                     </div>
                 </div>
 
-                {/* Right Column: Image only on desktop */}
-                <div className="hidden md:block md:w-[420px] mt-20">
-                    <img
+                {/* Desktop Image */}
+                <div className="hidden md:block md:w-[440px] mt-28">
+                    <Image
                         src="/serena-blake-headshot.jpg"
-                        alt="Dr. Jennifer Hahm"
-                        className="w-full h-auto object-cover rounded-md shadow-md"
+                        alt="Dr. Serena Blake"
+                        width={420}
+                        height={500}
+                        className="object-cover rounded-md shadow-md"
                         style={{
                             background: "#f7f5f0",
                             border: "1.5px solid #e5e5e5",
