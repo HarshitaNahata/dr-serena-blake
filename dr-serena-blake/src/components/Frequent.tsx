@@ -39,7 +39,9 @@ export default function Frequent() {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
 
     return (
-        <section className="py-24 bg-[#f7f5f0]">
+        <section className="py-24 bg-white">
+
+
             <div className="max-w-4xl mx-auto px-6 md:px-8 lg:px-12">
                 <h2
                     className="text-3xl md:text-4xl font-bold text-center mb-12 font-sans"
@@ -50,7 +52,9 @@ export default function Frequent() {
                 >
                     Frequently Asked Questions
                 </h2>
-                <div className="divide-y divide-[#e5e5e5] bg-white rounded-xl shadow-md">
+                <div className="divide-y divide-[#5a5a3f] bg-[#c6e4e7] rounded-xl shadow-md">
+
+
                     {faqs.map((faq, idx) => (
                         <div key={faq.question}>
                             <button
